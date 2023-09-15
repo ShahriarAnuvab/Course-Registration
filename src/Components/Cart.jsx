@@ -4,11 +4,11 @@ import Cartitems from "./Cartitems";
 const Cart = ({ cart,hours, price }) => {
 //   console.log(cart);
 //   console.log(hours);
-  console.log(price);
+//   console.log(price);
   
 
   return (
-    <div className="md:w-3/12 ">
+    <div className="md:w-3/12 mx-4 ">
       <div className="bg-slate-300 rounded-3xl p-5 bg-base-100 shadow-2xl my-10 ">
         <div>
           <h1 className="text-lg font-semibold text-center border-b-2 p-2 mx-2 text-[#2F80ED] ">
