@@ -12,7 +12,7 @@ const Course = ({handleCart}) => {
     } ,[])
     
     return (
-        <div className="md:w-9/12 border border-red-300 rounded-3xl p-2">
+        <div className="md:w-9/12  p-2">
             <h1 className="text-start font-semibold text-3xl">Total Course : {course.length}</h1>
             
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 justify-items-center items-center">
