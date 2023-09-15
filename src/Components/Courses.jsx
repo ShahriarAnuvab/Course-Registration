@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 const Courses = ({ course }) => {
   const { course_name, course_details, price, credit_hours, img } = course;
   return (
-    <div className="grid bg-base-100 shadow-xl justify-items-center p-5  h-[350px] lg:w-[350px] xl:w-[320px]">
-      <div className="">
+    <div className="grid bg-base-100 shadow-xl my-3 rounded-xl justify-items-center p-5  h-[350px] lg:w-[350px] xl:w-[320px] text-center">
+      <div className="space-y-2 grid justify-items-center">
         <img src={img} alt="" />
         <p className="text-[#1C1B1B] text-lg font-semibold">{course_name}</p>
         <p className="text-sm font-normal text-[#1C1B1B99]">{course_details}</p>
       </div>
-      <div className="flex">
+      <div className="flex w-[280px] justify-between"> 
         <p className="text-base font-medium text-[#1C1B1B99]">
         
           Pirce: {price}
