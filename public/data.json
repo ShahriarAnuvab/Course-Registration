@@ -1,0 +1,84 @@
+
+[
+    {
+      "id": "C101",
+      "course_name": "Introduction to C Programming",
+      "course_details": "Learn the basics of programming and coding.",
+      "price": 49.99,
+      "credit_hours": 3,
+      "img": "https://i.ibb.co/0jtd1tc/Rectangle2-2.png"
+    },
+    {
+      "id": "C102",
+      "course_name": "Web Development Fundamentals",
+      "course_details": "Build foundational skills for web development.",
+      "price": 79.99,
+      "credit_hours": 4,
+      "img": "https://i.ibb.co/nrbnRbN/Rectangle2-1.png"
+    },
+    {
+      "id": "C103",
+      "course_name": "Data Structure Essentials",
+      "course_details": "Explore data analysis and machine learning.",
+      "price": 89.99,
+      "credit_hours": 5,
+      "img": "https://i.ibb.co/Np9B54s/Rectangle3.png"
+    },
+    {
+      "id": "C104",
+      "course_name": "Python Object Oriented Programming",
+      "course_details": "Learn the fundamentals of graphic design.",
+      "price": 59.99,
+      "credit_hours": 3,
+      "img": "https://i.ibb.co/QQPJWHH/Rectangle2.png"
+    },
+    {
+      "id": "C105",
+      "course_name": "Algorithms",
+      "course_details": "Master digital marketing techniques and strategies.",
+      "price": 69.99,
+      "credit_hours": 4,
+      "img": "https://i.ibb.co/ypNPpBd/Rectangle2-3.png"
+    },
+    {
+      "id": "C106",
+      "course_name": "Learn C Programming",
+      "course_details": "Understand the basics of financial management.",
+      "price": 79.99,
+      "credit_hours": 4,
+      "img": "https://i.ibb.co/0jZKYX5/Rectangle2-4.png.jpg"
+    },
+    {
+      "id": "C107",
+      "course_name": "Software Engineering",
+      "course_details": "Dive into the world of AI and machine learning.",
+      "price": 99.99,
+      "credit_hours": 5,
+      "img": "https://i.ibb.co/gvL3BYV/Rectangle2-5.png.jpg"
+    },
+    {
+      "id": "C108",
+      "course_name": "Mobile App Development",
+      "course_details": "Create mobile apps for iOS and Android.",
+      "price": 89.99,
+      "credit_hours": 5,
+      "img": "https://i.ibb.co/YWV5ytv/Rectangle3-1.png"
+    },
+    {
+      "id": "C109",
+      "course_name": "Project Management Essentials",
+      "course_details": "Learn the principles of effective project management.",
+      "price": 69.99,
+      "credit_hours": 4,
+      "img": "https://i.ibb.co/Sr0tmF6/Rectangle2-6.png"
+    },
+    {
+      "id": "C110",
+      "course_name": "Photography Fundamentals",
+      "course_details": "Explore the art and techniques of photography.",
+      "price": 49.99,
+      "credit_hours": 3,
+      "img": "https://i.ibb.co/VgsQVXL/wedding-photography-poster-template-23-2148654977.png"
+    }
+  ]
+  

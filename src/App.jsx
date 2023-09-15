@@ -1,10 +1,17 @@
 import './App.css'
-
+import Cart from './Components/Cart'
+import Course from './Components/Course'
+import Header from './Components/Header'
 function App() {
+
 
   return (
     <>
-     <h1 className='bg-red-400 text-7xl'>Hello World!</h1>
+     <Header></Header>
+     <div className='md:flex justify-between'>
+      <Course></Course>
+      <Cart></Cart>
+     </div>
     </>
   )
 }
