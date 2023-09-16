@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import Cartitems from "./Cartitems";
 
-const Cart = ({ cart,hours, price }) => {
+const Cart = ({ cart,hours, price, ramaining }) => {
 //   console.log(cart);
 //   console.log(hours);
 //   console.log(price);
@@ -14,7 +14,7 @@ const Cart = ({ cart,hours, price }) => {
         <div>
           <h1 className="text-lg font-semibold text-center border-b-2 p-2 mx-2 text-[#2F80ED] ">
             Credit Hour Remaining: <span className="font-medium"></span>
-            00
+           {ramaining}
           </h1>
         </div>
         <div className="border-b-2 p-2 mx-2">
@@ -46,7 +46,8 @@ const Cart = ({ cart,hours, price }) => {
 Cart.propTypes = {
   cart: PropTypes.array,
   hours : PropTypes.number,
-  price : PropTypes.number
+  price : PropTypes.number,
+  ramaining : PropTypes.number
 };
 
 export default Cart;
