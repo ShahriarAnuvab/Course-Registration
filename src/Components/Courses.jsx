@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { FaDollarSign } from "react-icons/fa";
+import { FiBookOpen } from "react-icons/fi";
 const Courses = ({ course, handleCart}) => {
   const { course_name, course_details, price, credit_hours, img } = course;
   return (
@@ -9,10 +11,17 @@ const Courses = ({ course, handleCart}) => {
         <p className="text-sm font-normal text-[#1C1B1B99]">{course_details}</p>
       </div>
       <div className="flex w-[280px] justify-between">
-        <p className="text-base font-medium text-[#1C1B1B99]">Pirce: {price} $</p>
+        <div className="flex items-center gap-2">
+         <FaDollarSign/> 
+        <p className="text-base font-medium text-[#1C1B1B99]"> Pirce: {price} $</p>
+        </div>
+        <div className="flex items-center gap-2">
+        <FiBookOpen/>
         <p className="text-base font-medium text-[#1C1B1B99]">
           Credit: {credit_hours}
         </p>
+        </div>
+ 
       </div>
       <button onClick={()=>handleCart(course, course.credit_hours, course.price)} className="border rounded-lg border-[#2F80ED]  w-[280px] bg-[#2F80ED] text-white">
         Select

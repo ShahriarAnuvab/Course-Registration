@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import Cartitems from "./Cartitems";
 
+
 const Cart = ({ cart,hours, price, ramaining }) => {
 //   console.log(cart);
 //   console.log(hours);

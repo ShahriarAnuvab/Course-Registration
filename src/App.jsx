@@ -18,7 +18,7 @@ function App() {
     let priceTotal = totalPrice + price;
     priceTotal = priceTotal.toFixed(2);
     priceTotal = parseFloat(priceTotal);
-    console.log(priceTotal, typeof priceTotal);
+    // console.log(priceTotal, typeof priceTotal);
     let totalCredit = hours + hour;
     let remaining = remainingHour - hour;
     // console.log(remaining);
