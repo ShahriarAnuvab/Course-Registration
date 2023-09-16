@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 const Cartitems = ({cartItems, index}) => {
     // console.log(cartItems)
+    // console.log(cartItems.course_name)
     // console.log(index)
     
     return (

@@ -9,7 +9,7 @@ const Courses = ({ course, handleCart}) => {
         <p className="text-sm font-normal text-[#1C1B1B99]">{course_details}</p>
       </div>
       <div className="flex w-[280px] justify-between">
-        <p className="text-base font-medium text-[#1C1B1B99]">Pirce: {price}</p>
+        <p className="text-base font-medium text-[#1C1B1B99]">Pirce: {price} $</p>
         <p className="text-base font-medium text-[#1C1B1B99]">
           Credit: {credit_hours}
         </p>

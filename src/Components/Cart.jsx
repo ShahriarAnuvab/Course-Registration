@@ -5,6 +5,7 @@ const Cart = ({ cart,hours, price }) => {
 //   console.log(cart);
 //   console.log(hours);
 //   console.log(price);
+// console.log(cart)
   
 
   return (
