@@ -14,6 +14,10 @@ function App() {
     const newCart = [...cart, course];
     // console.log("credit Hours", hours)
     const isExist = cart.find((item) => item.id == course.id);
+    let priceTotal = (totalPrice + price);
+    priceTotal = priceTotal.toFixed(2);
+    priceTotal  = parseFloat(priceTotal);
+    console.log(priceTotal, typeof(priceTotal))
     if (isExist) {
       // toast.success("already added");
       toast.warn('already added', {
@@ -29,7 +33,7 @@ function App() {
     } else {
       setHours(hours + hour);
       setCart(newCart);
-      setPrice(totalPrice + price);
+      setPrice(priceTotal);
     }
   };
   return (
