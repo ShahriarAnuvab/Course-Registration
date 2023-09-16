@@ -18,6 +18,7 @@ function App() {
     priceTotal = priceTotal.toFixed(2);
     priceTotal  = parseFloat(priceTotal);
     console.log(priceTotal, typeof(priceTotal))
+    let totalCredit = hours + hour;
     if (isExist) {
       // toast.success("already added");
       toast.warn('already added', {
@@ -31,9 +32,27 @@ function App() {
         theme: "light",
         });
     } else {
-      setHours(hours + hour);
-      setCart(newCart);
-      setPrice(priceTotal);
+      if(totalCredit <= 0 || totalCredit > 20){
+        toast.warn(`Cant exceed 20 hours`, {
+          position: "top-center",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          });
+        
+      }
+      else{
+        setHours(totalCredit);
+        setCart(newCart);
+        setPrice(priceTotal);
+      
+      }
+ 
+
     }
   };
   return (
