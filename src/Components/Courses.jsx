@@ -13,7 +13,7 @@ const Courses = ({ course, handleCart}) => {
       <div className="flex w-[280px] justify-between">
         <div className="flex items-center gap-2">
          <FaDollarSign/> 
-        <p className="text-base font-medium text-[#1C1B1B99]"> Pirce: {price} $</p>
+        <p className="text-base font-medium text-[#1C1B1B99]"> Pirce: {price} </p>
         </div>
         <div className="flex items-center gap-2">
         <FiBookOpen/>
